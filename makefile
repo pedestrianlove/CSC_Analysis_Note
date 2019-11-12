@@ -1,10 +1,10 @@
 # Variables
 TEX := xelatex
-SOURCES := src/%.tex
-OUTPUT := pdf/%.pdf
+SOUR@sCES := src/%.tex
+OUTPUTS := pdf/%.pdf
 
 # Make jobs
-$(OUTPUT) : $(SOURCES)
-	$(TEX) $(input) $(output)
+all:
 
-	
+$(OUTPUTS) : $(SOURCES)
+	$(TEX) $(input) $(output)	
