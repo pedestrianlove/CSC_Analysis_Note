@@ -2,7 +2,7 @@
 
 ## Prerequistes
 1.  A working GNU MAKE.
-2.  A working TeX distribution that supports XeTex.
+2.  A working TeX distribution that supports XeTeX.
 
 ## Quest
 1. Write your own LaTeX source in the "src" folder. (according to "original.pdf" under the "pdf" folder)
