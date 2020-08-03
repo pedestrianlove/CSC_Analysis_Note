@@ -10,7 +10,7 @@ all : $(DOCUMENT) relocate clean
 	$(TEX) $<	
 
 relocate : 
-	mv *.pdf pdf/
+	mv *.pdf bin/
 
 clean:
 	rm -f *.out *aux *bbl *blg *log *toc *.ptb *.tod *.fls *.fdb_latexmk *.lof
